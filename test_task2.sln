@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_task2", "test_task2\test_task2.csproj", "{3F13C6F3-5832-439E-A6BB-7CA70E6FFC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO_Models", "DTO_Models\DTO_Models.csproj", "{4327DF43-D56D-46CE-99D9-3A3F2A843EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F13C6F3-5832-439E-A6BB-7CA70E6FFC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F13C6F3-5832-439E-A6BB-7CA70E6FFC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F13C6F3-5832-439E-A6BB-7CA70E6FFC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F13C6F3-5832-439E-A6BB-7CA70E6FFC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4327DF43-D56D-46CE-99D9-3A3F2A843EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4327DF43-D56D-46CE-99D9-3A3F2A843EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4327DF43-D56D-46CE-99D9-3A3F2A843EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4327DF43-D56D-46CE-99D9-3A3F2A843EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C42713-E13D-4A1F-AEFD-C153478E1E7B}
+	EndGlobalSection
+EndGlobal
