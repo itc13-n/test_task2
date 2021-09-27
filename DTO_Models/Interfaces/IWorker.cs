@@ -4,13 +4,13 @@ using System.Text;
 
 namespace DTO_Models
 {
-    interface IWorker
+    public interface IWorker
     {
         string Name { get; set; }
-        DateTime EmplDate { get; set; }
+        DateTime EmploymentDate { get; set; }
         int Group { get; set; }
         double WageRate { get; set; }
 
-        public abstract double GetSalary(DateTime year);
+        public double GetSalary(DateTime year);
     }
 }

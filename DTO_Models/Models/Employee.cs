@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DTO_Models
 {
-    class Employee : IWorker
+    public class Employee : IWorker
     {
         public string Name { get; set; }
-        public DateTime EmplDate { get; set; }
+        public DateTime EmploymentDate { get; set; }
         public int Group { get; set; }
         public double WageRate { get; set; }
         public IBoss Chief { get; set; }
@@ -22,7 +22,7 @@ namespace DTO_Models
         public double GetSalary(DateTime year)
         {
             DateTime zeroYear = new DateTime(1, 1, 1);
-            TimeSpan timeSpan =  year - EmplDate;
+            TimeSpan timeSpan =  year - EmploymentDate;
             int resYears = (zeroYear + timeSpan).Year - 1;
             double salary = (WageRate * 1.03) * Math.Pow(1.03, resYears);
             double max = WageRate * 1.3;
