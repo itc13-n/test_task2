@@ -9,8 +9,8 @@ namespace DTOModels
         public int ID { get; set; }
         public string Name { get; set; }
         public DateTime EmploymentDate { get; set; }
-        public int Group { get; set; }
-        //public double InitialWageRate { get; set; } //?
+        public int Level { get; set; }
+        public double InitialWageRate { get; set; }
         public int ChiefRef { get; set; }
 
         public double GetWageRate(DateTime year)

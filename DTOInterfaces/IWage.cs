@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOModels.Models
+namespace DTOInterfaces
 {
-    public class SalaryInfo
+    public interface IWage
     {
-        public int ID { get; set; }
-        public int Level { get; set; }
         public double BonusYear { get; set; }
         public double BonusSubordinates { get; set; }
-        public double MaxBonusYear { get; set; }
     }
 }
