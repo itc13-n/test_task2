@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contracts
 {
-    interface IEmployee
+    public interface IEmployee
     {
         public List<IEmployee> Subordinates { get; set; }
     }

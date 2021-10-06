@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contracts
 {
-    interface IEmployeeRepository
+    public interface IEmployeeRepository
     {
         public IEmployee Find(long id);
     }

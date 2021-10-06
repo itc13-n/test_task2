@@ -10,8 +10,9 @@ namespace DTOModelsLogic
         /// <param name="year">Date to calculate salary on</param>
         /// <param name="employmentDate">Date of employment</param>
         /// <param name="initialWageRate">Initial wage rate. Assuming yearly</param>
-        /// <param name="maxWageRateBonus">Max % of initial wage rate that can be applied to increase it (0.3, 0.5, etc)</param>
-        /// <param name="yearWageRateBonus">% of wage rate applied to increase it for each year of service (0.3, 0.5, etc)</param>
+        /// <param name="maxWageRateBonus">Maximum allowed increase of wage rate for salary (0.3, 0.5, etc)</param>
+        /// <param name="yearWageRateBonus">Percentage of wage rate applied to increase it for each year of service (0.3, 0.5, etc)</param>
+        /// <param name="subordinatesWageRateBonus"></param>
         /// <returns>Wage rate on specified date as double</returns>
         public static double GetWageRate(DateTime year,
                                          DateTime employmentDate,
